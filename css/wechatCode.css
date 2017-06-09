@@ -1,0 +1,31 @@
+.impowerBox .qrcode {
+    width: 120px;
+    margin: 10px auto
+}
+
+.impowerBox .title {
+    display: none
+}
+
+.impowerBox .info {
+    width: 100%;
+    margin: 0 auto
+}
+
+.status_icon {
+    display: none
+}
+
+.impowerBox .status_succ {
+    font-size: 16px;
+    text-align: center;
+    margin-top: -10px
+}
+
+.info .status_txt p {
+    display: none
+}
+
+.info .status_browser {
+    margin-top: -10px
+}

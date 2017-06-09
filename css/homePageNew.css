@@ -1,0 +1,858 @@
+.header {
+    float: left;
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+    height: 700px;
+    background: url("../images/topbg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.headerDScreen{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background: rgba(43,46,55,0.85);
+}
+.banner {
+    position: absolute;
+    color: white;
+    width: 1000px;
+    top: 120px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+.bannerTitleSmall {
+    font-size: 36px;
+    text-align: center;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.bannerTitleBig {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.bannerBtnGroup {
+    width: 340px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.experienceBtn, .openBtn {
+    float: left;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.experienceBtn {
+    margin-right: 20px;
+}
+
+.productInterface {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 286px;
+    background: white;
+}
+
+.productInterfaceContent {
+    position: absolute;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 800px;
+    height: 490px;
+    left: 50%;
+    top: -160px;
+    margin-left: -400px;
+}
+
+.productInterfaceContent img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+}
+
+/*涓诲唴瀹�*/
+.mainContent {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*浜у搧鍔熻兘*/
+.productFunction {
+    width: 100%;
+    height: 465px;
+}
+
+.partTitle {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.partTitleLine {
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: #2a75ed;
+    left: 50%;
+    margin-left: -12px;
+    bottom: -10px;
+}
+
+.functionContent {
+    width: 100%;
+    height: auto;
+    margin-top: 77px;
+}
+
+.functionPart {
+    float: left;
+    width: 300px;
+    height: 72px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+
+.functionIcon {
+    float: left;
+    width: 48px;
+    height: 72px;
+}
+
+.functionIcon img {
+    float: left;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    top: 12px;
+    left: 0;
+}
+
+.functionPartContent {
+    float: left;
+    width: 232px;
+    height: 72px;
+    margin-left: 20px;
+}
+
+.functionPartTitle {
+    width: 100%;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.functionPartIntro {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 5px;
+    overflow: hidden;
+    color: #888888;
+}
+
+/*浜у搧妯″潡*/
+.productModule {
+    width: 100%;
+    height: 465px;
+}
+
+
+.moduleTitle {
+    font-size: 28px;
+    font-weight: 500;
+    font-size: 28px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.moduleIntro {
+    margin-top: 20px;
+    width: 400px;
+    height: 44px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #888888;
+}
+
+.modulePicR {
+    width: 500px;
+    height: 401px;
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom:100px;
+    float:left;
+    
+}
+.modulePicL{
+    float:left;
+    width:100px;
+    height:100px;
+    margin: 2px auto;
+    margin-top:200px;
+
+
+}
+
+.modulePicL {
+    float:left;
+}
+
+
+.excellentCase {
+    width: 100%;
+    height: 540px;
+    margin-top: 100px;
+}
+
+.casePromptWords {
+    width: 100%;
+    height: 34px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 32px;
+    color: black;
+}
+
+.caseContent {
+    
+    width: 277px;
+    height: 277px;
+    /*margin: 0px auto;*/
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.casePart {
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 140px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.qrcodeImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.qrcodeImg img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+/*鍏充簬鎴戜滑*/
+.casePromptWordsB {
+    color: #353535;
+}
+
+.xePart {
+    float: left;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.partImg {
+    width: 140px;
+    height: 140px;
+    margin: 10px auto 0 auto;
+}
+
+.partImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.memberName {
+    font-size: 14px;
+    color: #353535;
+}
+
+.memberJob {
+    margin-top: 0;
+    font-size: 13px;
+    color: #666666;
+}
+
+.memberIntro {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666666;
+}
+
+/*寰俊鎵竴鎵睍绀烘ā鍧�*/
+.wxScan {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: url("../images/bgdibu.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.wxScanBanner {
+    position: absolute;
+    color: white;
+    width: 1000px;
+    top: 60px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+.wxScanTitleBig {
+    font-size: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.wxScanTitleSmall {
+    margin-top: 20px;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qrContent {
+    width: 200px;
+    height: 240px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.IndexQrCode {
+    width: 160px;
+    height: 160px;
+    margin: 20px auto 0 auto;
+    overflow: hidden;
+}
+
+.qrContent img {
+    width: 160px;
+    height: 160px;
+    margin-top: -200px;
+    margin-left: 20px;
+    position:relative;
+}
+
+.IndexQrCodeWord {
+    width: 100%;
+    height: 22px;
+    margin-top: 20px;
+    line-height: 22px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+ 
+
+
+@media (min-width: 450px) {
+    .picContent, .navHeader, .footer {
+        display: block;
+    }
+
+    .mobileContent {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        min-width: 350px;
+        overflow-x: hidden;
+    }
+
+    .picContent, .navHeader, .footer {
+        display: none;
+    }
+
+    .mobileContent {
+        display: block;
+    }
+
+    .m_btnGrey {
+        border-radius: 2px;
+        color: white;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+        transition: 0.5s all ease;
+        cursor: pointer;
+    }
+
+    .m_btnBlue {
+        border-radius: 2px;
+        color: white;
+        background: #2a75ed;
+        text-align: center;
+        transition: 0.5s all ease;
+        cursor: pointer;
+    }
+
+    /*瀹樼綉鎵嬫満鐗�*/
+    .m_nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        padding: 10px 15px 10px 15px;
+        background: transparent;
+        z-index: 100;
+        transition: 0.2s all ease;
+    }
+
+    .light {
+        background: rgba(255, 255, 255, 0.98);
+    }
+
+    .m_logo {
+        float: left;
+        width: 100px;
+        height: 30px;
+    }
+
+    .m_logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .m_loginBtn {
+        float: right;
+        width: 70px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .m_header {
+        float: left;
+        width: 100%;
+        height: 450px;
+        position: relative;
+        background: url("../images/topbg.png") no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .m_bigTitle {
+        width: 100%;
+        height: 33px;
+        margin-top: 94px;
+        line-height: 38px;
+        font-size: 24px;
+        text-align: center;
+        padding-left: 43px;
+        padding-right: 43px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    .m_smallTitle {
+        width: 100%;
+        height: 33px;
+        line-height: 33px;
+        margin-top: 55px;
+        font-size: 14px;
+        text-align: center;
+        color: white;
+    }
+
+    .m_registerBtn, .m_experienceBtn {
+        width: 160px;
+        height: 44px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 44px;
+    }
+
+    .m_registerBtn {
+        margin-top: 40px;
+    }
+
+    .m_experienceBtn {
+        margin-top: 20px;
+    }
+
+    .m_productInterface {
+        float: left;
+        position: relative;
+        width: 100%;
+        height: 110px;
+        background: white;
+    }
+
+    .m_productInterfaceContent {
+        position: absolute;
+        width: 373px;
+        height: 245px;
+        left: 50%;
+        top: -107px;
+        margin-left: -187px;
+    }
+
+    .m_productInterfaceContent img {
+        width: 100%;
+    }
+
+    .m_content {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .m_mainContent {
+        width: 375px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .m_productFunction {
+        width: 100%;
+        height: 465px;
+    }
+
+    .m_partTitle {
+        position: relative;
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        margin-top: 31px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+ 
+    .m_functionContent {
+        width: 100%;
+        height: auto;
+        margin-top: 38px;
+        overflow: hidden;
+    }
+
+    .m_functionPart {
+        float: left;
+        width: 165px;
+        height: 80px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    .m_functionIcon {
+        float: left;
+        width: 24px;
+        height: 36px;
+    }
+
+    .m_functionIcon img {
+        width: 100%;
+    }
+
+    .m_functionPartContent {
+        float: left;
+        width: 131px;
+        height: 80px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .m_functionPartTitle {
+        width: 100%;
+        height: 22px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .m_functionPartIntro {
+        width: 100%;
+        height: 50px;
+        font-size: 12px;
+        color: #888888;
+    }
+
+    .m_productModule {
+        overflow: hidden;
+        width: 100%;
+        height: 400px;
+    }
+
+    .m_moduleTitle {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .m_moduleIntro {
+        width: 300px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 12px;
+        color: #888888;
+    }
+
+    .m_modulePic {
+        width: 300px;
+        height: 216px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .m_modulePic img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*绮惧僵妗堜緥*/
+    .m_excellentCase {
+        width: 100%;
+        height: 567px;
+    }
+
+    .m_casePromptWords {
+        width: 100%;
+        height: 34px;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 32px;
+        color: #888888;
+    }
+
+    .m_caseContent {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .m_casePart {
+        float: left;
+        position: relative;
+        width: 105px;
+        height: 105px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+
+    .m_casePart img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*寰俊鎵竴鎵�*/
+
+    .m_wxScan{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background: url('../images/bgdibu.png') no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .m_wxScanBanner {
+        position: absolute;
+        color: white;
+        width: 375px;
+        top: 60px;
+        left: 50%;
+        margin-left: -187px;
+    }
+
+    .m_wxScanTitleBig {
+        width: 100%;
+        height: 33px;
+        line-height: 33px;
+        font-size: 24px;
+        text-align: center;
+        padding-left: 43px;
+        padding-right: 43px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    .m_qrContent {
+        width: 100px;
+        height: 120px;
+        margin-top: 23px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 4px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    .m_wxScanTitleSmall {
+        width: 100%;
+        height: 33px;
+        line-height: 38px;
+        margin-top: 35px;
+        font-size: 14px;
+        text-align: center;
+        color: white;
+    }
+
+    .m_IndexQrCode {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 0 auto;
+    }
+
+    .m_IndexQrCode iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .m_IndexQrCodeWord {
+        width: 100%;
+        height: 11px;
+        margin-top: 10px;
+        line-height: 11px;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+    }
+
+    /*搴曢儴*/
+    .m_footer{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .m_footerContact{
+        width: 100%;
+        padding:15px;
+        box-sizing: border-box;
+        text-align: left;
+        background: #313954;
+    }
+
+    .m_footerContactContent{
+        width: 100%;
+        border-bottom: 1px solid #a1a6b5;
+        color: #a1a6b5;
+    }
+
+    .m_footerContactContentT{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 19px;
+    }
+
+    .m_footerContactContentP{
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+
+    .m_footerQrCode{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .m_footerQrCodeImg{
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .m_footerQrCodeImg img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .m_footerQrCodeIntro{
+        width: 100%;
+        margin-top: 5px;
+        color: #a1a6b5;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .m_webInfo{
+        overflow: hidden;
+        width: 100%;
+        height: 50px;
+        background: #232b46;
+        padding:9px 0 9px 0;
+        box-sizing: border-box;
+        
+    }
+
+    .m_webInfoContent{
+        width: 350px;
+        height: auto;
+        line-height: 16px;
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #737d9f;
+        text-align: center;
+    }
+}
+
+
